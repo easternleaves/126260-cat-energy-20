@@ -1,0 +1,23 @@
+.specification {
+  margin-top: 27px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.specification__title {
+  font-size: 36px;
+  font-family: "Oswald", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 40px;
+  color: $basic-black;
+}
+
+.specification__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.specification__text {
+  color: $special-dark-grey;
+}
