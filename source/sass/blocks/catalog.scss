@@ -1,0 +1,62 @@
+.catalog__title {
+  font-size: 36px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 36px;
+  color: $basic-black;
+  padding-left: 20px;
+}
+
+.catalog__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog__item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-top: 1px solid $special-grey2;
+  border-bottom: 1px solid $special-grey2;
+}
+
+.catalog__item-title {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $special-dark-grey2;
+}
+
+.catalog__item-info {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.catalog__show-more {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $basic-black2;
+  margin-top: 79px;
+}
+
+.catalog__text {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: $special-dark-grey;
+}
+
+.catalog__to-all {
+  color: $special-dark-grey;
+  background-color: $basic-grey;
+}

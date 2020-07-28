@@ -1,1 +1,19 @@
-// Начните писать стили здесь
+@import "utils/fonts.scss";
+@import "utils/global.scss";
+
+// index
+@import "blocks/page.scss";
+@import "blocks/page-header.scss";
+@import "blocks/site-list.scss";
+@import "blocks/promo.scss";
+@import "blocks/category.scss";
+@import "blocks/specification.scss";
+
+// catalog
+@import "blocks/catalog.scss";
+@import "blocks/info.scss";
+
+// footer
+@import "blocks/page-footer.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";
