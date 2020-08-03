@@ -1,0 +1,50 @@
+.example {
+  background-color: $basic-grey2;
+  padding-top: 27px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.example__title {
+  font-size: 36px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 40px;
+  color: $basic-black;
+  margin: 0;
+}
+
+.example__text {
+  color: $special-dark-grey;
+  margin-top: 33px;
+}
+
+.example__facts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.example_summary {
+  font-size: 14px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $basic-black;
+}
+
+.example__toggle-button {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $basic-black;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
