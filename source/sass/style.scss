@@ -1,11 +1,13 @@
-@import "utils/fonts.scss";
 @import "utils/global.scss";
+@import "utils/fonts.scss";
+@import "utils/colors.scss";
 
 // index
 @import "blocks/page.scss";
 @import "blocks/page-header.scss";
 @import "blocks/site-list.scss";
 @import "blocks/promo.scss";
+@import "blocks/button.scss";
 @import "blocks/category.scss";
 @import "blocks/specification.scss";
 @import "blocks/example.scss";

@@ -1,43 +1,29 @@
-.program-form {
-  fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
+.program-form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 
-  legend {
-    font-size: 24px;
-    font-family: "Oswald", "Arial", sans-serif;
-    font-weight: normal;
-    line-height: 26px;
-    color: $basic-black;
-    margin-bottom: 34px;
-  }
-
-  input[type="text"],
-  input[type="number"],
-  input[type="email"],
-  textarea {
-    font-size: 16px;
-    font-family: "Oswald", "Arial", sans-serif;
-    font-weight: normal;
-    line-height: 18px;
-    color: $special-dark-grey;
-    border: 1px solid $special-grey-input;
-  }
+.program-form__legend {
+  font-size: 24px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 26px;
+  color: $basic-black;
+  margin-bottom: 34px;
 }
 
 .program-form__list {
   margin: 0;
   padding: 0;
   margin-bottom: 27px;
-}
 
-.program-form__list--radio {
-  border-top: 1px solid $basic-light-grey;
-  border-bottom: 1px solid $basic-light-grey;
-  padding-top: 20px;
-  padding-bottom: 9px;
+  &--radio {
+    border-top: 1px solid $basic-light-grey;
+    border-bottom: 1px solid $basic-light-grey;
+    padding-top: 20px;
+    padding-bottom: 9px;
+  }
 }
 
 .program-form__form-option {
@@ -45,22 +31,43 @@
   margin: 0;
   padding: 0;
   margin-bottom: 13px;
-
-  label {
-    font-size: 16px;
-    font-family: "Oswald", "Arial", sans-serif;
-    font-weight: normal;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: $special-dark-grey;
-  }
 }
 
-.program-form__radio + label {
+.program-form__field,
+.program-form__comment-field,
+.program-form__radio {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 18px;
+  color: $special-dark-grey;
+  border: 1px solid $special-grey-input;
+}
+
+.program-form__label {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $special-dark-grey;
+}
+
+.program-form__label-radio {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
   color: $special-dark-grey2;
 }
 
-.program-form__checkbox + label {
+.program-form__label-checkbox {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
   color: $basic-black;
 }
 
