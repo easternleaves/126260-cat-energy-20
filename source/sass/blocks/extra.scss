@@ -1,0 +1,42 @@
+.extra {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 39px;
+}
+
+.extra__title {
+  font-size: 24px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 24px;
+  color: $basic-black;
+}
+
+.extra__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.extra__item {
+  border-top: 1px solid $special-grey;
+  border-bottom: 1px solid $special-grey;
+  padding-bottom: 19px;
+}
+
+.extra__item-title {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $special-dark-grey2;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.extra__info {
+  line-height: 14px;
+  color: $special-dark-grey;
+  margin-bottom: 15px;
+}

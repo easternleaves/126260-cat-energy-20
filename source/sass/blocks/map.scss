@@ -1,0 +1,29 @@
+.map__header {
+  background-color: $basic-white;
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 22px;
+
+  &--inner {
+    background-color: $basic-grey;
+  }
+}
+
+.map__offer {
+  font-size: 16px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $basic-black;
+  margin: 0;
+  padding: 0;
+}
+
+.map__address {
+  line-height: 20px;
+  color: $special-dark-grey;
+  margin: 0;
+  padding: 0;
+}

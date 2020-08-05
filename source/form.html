@@ -41,74 +41,74 @@
         <h1 class="form__title">Подбор программы</h1>
         <p class="form__text">Заполните анкету, и мы подберем программу питания для вашего кота</p>
         <form class="program-form" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset>
-            <ul>
+          <fieldset class="program-form__fieldset">
+            <ul class="program-form__list">
               <li class="program-form__form-option">
-                <label for="cat-name">Имя:*</label>
-                <input class="program-form__cat-name-field" type="text" id="cat-name" name="cat-name" placeholder="Барсик" required>
+                <label class="program-form__label" for="cat-name">Имя:*</label>
+                <input class="program-form__field" type="text" id="cat-name" name="cat-name" placeholder="Барсик" required>
               </li>
               <li class="program-form__form-option">
-                <label for="cat-weight">Вес (кг):*</label>
-                <input class="program-form__cat-weight-field" type="number" id="cat-weight" name="cat-weight" placeholder="7" required>
+                <label class="program-form__label" for="cat-weight">Вес (кг):*</label>
+                <input class="program-form__field" type="number" id="cat-weight" name="cat-weight" placeholder="7" required>
               </li>
               <li class="program-form__form-option">
-                <label for="cat-age">Возраст (лет):</label>
-                <input class="program-form__cat-age-field" type="number" id="cat-age" name="cat-age" placeholder="7">
+                <label class="program-form__label" for="cat-age">Возраст (лет):</label>
+                <input class="program-form__field" type="number" id="cat-age" name="cat-age" placeholder="7">
               </li>
             </ul>
           </fieldset>
-          <fieldset>
-            <ul>
+          <fieldset class="program-form__fieldset">
+            <ul class="program-form__list program-form__list--radio">
               <li class="program-form__form-option">
                 <input class="program-form__radio" type="radio" id="slim" name="slim" checked>
-                <label for="slim">Похудение</label>
+                <label class="program-form__label-radio" for="slim">Похудение</label>
               </li>
               <li class="program-form__form-option">
                 <input class="program-form__radio" type="radio" id="mass" name="mass">
-                <label for="mass">Набор массы</label>
+                <label class="program-form__label-radio" for="mass">Набор массы</label>
               </li>
               <li class="program-form__form-option">
                 <input class="program-form__radio" type="radio" id="advice" name="advice">
-                <label for="advice">Не знаю (Нужен ваш совет)</label>
+                <label class="program-form__label-radio" for="advice">Не знаю (Нужен ваш совет)</label>
               </li>
             </ul>
           </fieldset>
-          <fieldset>
-            <legend>Контактные данные<br>(владельца кота)</legend>
-            <ul>
+          <fieldset class="program-form__fieldset">
+            <legend class="program-form__legend">Контактные данные<br>(владельца кота)</legend>
+            <ul class="program-form__list">
               <li class="program-form__form-option">
-                <label for="email">E-mail:*</label>
-                <input class="program-form__email-field" type="email" id="email" name="email" placeholder="kuklachev@gmail.com" required>
+                <label class="program-form__label" for="email">E-mail:*</label>
+                <input class="program-form__field" type="email" id="email" name="email" placeholder="kuklachev@gmail.com" required>
               </li>
               <li class="program-form__form-option">
-                <label for="phone">Телефон:*</label>
-                <input class="program-form__phone-field" type="number" id="phone" name="phone" placeholder="8 (960) 900-60-90" required>
+                <label class="program-form__label" for="phone">Телефон:*</label>
+                <input class="program-form__field" type="number" id="phone" name="phone" placeholder="8 (960) 900-60-90" required>
               </li>
             </ul>
           </fieldset>
-          <fieldset>
-            <legend>Комментарий</legend>
+          <fieldset class="program-form__fieldset">
+            <legend class="program-form__legend">Комментарий</legend>
             <label class="visually-hidden" for="comment">Комментарий</label>
             <textarea class="program-form__comment-field" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
           </fieldset>
-          <fieldset>
-            <legend>Дополнительно</legend>
-            <ul>
-              <li>
+          <fieldset class="program-form__fieldset">
+            <legend class="program-form__legend">Дополнительно</legend>
+            <ul class="program-form__list">
+              <li class="program-form__form-option">
                 <input class="program-form__checkbox" type="checkbox" id="sweetener" name="sweetener" value="sweetener" checked>
-                <label for="sweetener">Сахарозаменитель</label>
+                <label class="program-form__label-checkbox" for="sweetener">Сахарозаменитель</label>
               </li>
-              <li>
+              <li class="program-form__form-option">
                 <input class="program-form__checkbox" type="checkbox" id="water" name="water" value="water">
-                <label for="water">Питьевая вода</label>
+                <label class="program-form__label-checkbox" for="water">Питьевая вода</label>
               </li>
-              <li>
+              <li class="program-form__form-option">
                 <input class="program-form__checkbox" type="checkbox" id="milk" name="milk" value="milk">
-                <label for="milk">Молоко</label>
+                <label class="program-form__label-checkbox" for="milk">Молоко</label>
               </li>
-              <li>
+              <li class="program-form__form-option">
                 <input class="program-form__checkbox" type="checkbox" id="vitamins" name="vitamins" value="vitamins">
-                <label for="vitamins">Витамины</label>
+                <label class="program-form__label-checkbox" for="vitamins">Витамины</label>
               </li>
             </ul>
           </fieldset>
@@ -118,7 +118,7 @@
       </section>
 
       <section class="map">
-        <header class="map__header">
+        <header class="map__header map__header--inner">
           <h2 class="visually-hidden">
             Мы на карте
           </h2>
